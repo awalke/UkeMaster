@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		EFA010791D8DE96700B8430C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA010781D8DE96700B8430C /* AppDelegate.swift */; };
 		EFA0107B1D8DE96700B8430C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0107A1D8DE96700B8430C /* ViewController.swift */; };
-		EFA0107E1D8DE96700B8430C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA0107C1D8DE96700B8430C /* Main.storyboard */; };
 		EFA010801D8DE96700B8430C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA0107F1D8DE96700B8430C /* Assets.xcassets */; };
 		EFA010831D8DE96700B8430C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA010811D8DE96700B8430C /* LaunchScreen.storyboard */; };
 		EFA0108E1D8DE96700B8430C /* UkeMasterv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0108D1D8DE96700B8430C /* UkeMasterv2Tests.swift */; };
+		EFA0109B1D8DE97F00B8430C /* ChordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA010981D8DE97F00B8430C /* ChordsViewController.swift */; };
+		EFA0109C1D8DE97F00B8430C /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA010991D8DE97F00B8430C /* LearnViewController.swift */; };
+		EFA0109D1D8DE97F00B8430C /* SimonSaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0109A1D8DE97F00B8430C /* SimonSaysViewController.swift */; };
+		EFA0109F1D8DE9C100B8430C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA0109E1D8DE9C100B8430C /* Main.storyboard */; };
+		EFA010A11D8DEA6D00B8430C /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA010A01D8DEA6D00B8430C /* Firebase.framework */; };
+		EFA010A31D8DEAB200B8430C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA010A21D8DEAB200B8430C /* libicucore.tbd */; };
+		EFA010A51D8DEAB800B8430C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA010A41D8DEAB800B8430C /* libc++.tbd */; };
+		EFA010A71D8DEABF00B8430C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA010A61D8DEABF00B8430C /* CFNetwork.framework */; };
+		EFA010A91D8DEAC600B8430C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA010A81D8DEAC600B8430C /* Security.framework */; };
+		EFA010AB1D8DEACE00B8430C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFA010AA1D8DEACE00B8430C /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +38,22 @@
 		EFA010751D8DE96700B8430C /* UkeMasterv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UkeMasterv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA010781D8DE96700B8430C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFA0107A1D8DE96700B8430C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EFA0107D1D8DE96700B8430C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFA0107F1D8DE96700B8430C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA010821D8DE96700B8430C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA010841D8DE96700B8430C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFA010891D8DE96700B8430C /* UkeMasterv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkeMasterv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA0108D1D8DE96700B8430C /* UkeMasterv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkeMasterv2Tests.swift; sourceTree = "<group>"; };
 		EFA0108F1D8DE96700B8430C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA010981D8DE97F00B8430C /* ChordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChordsViewController.swift; path = ../../UkeMaster/UkeMaster/ChordsViewController.swift; sourceTree = "<group>"; };
+		EFA010991D8DE97F00B8430C /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LearnViewController.swift; path = ../../UkeMaster/UkeMaster/LearnViewController.swift; sourceTree = "<group>"; };
+		EFA0109A1D8DE97F00B8430C /* SimonSaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimonSaysViewController.swift; path = ../../UkeMaster/UkeMaster/SimonSaysViewController.swift; sourceTree = "<group>"; };
+		EFA0109E1D8DE9C100B8430C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EFA010A01D8DEA6D00B8430C /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		EFA010A21D8DEAB200B8430C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		EFA010A41D8DEAB800B8430C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EFA010A61D8DEABF00B8430C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EFA010A81D8DEAC600B8430C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EFA010AA1D8DEACE00B8430C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA010AB1D8DEACE00B8430C /* SystemConfiguration.framework in Frameworks */,
+				EFA010A91D8DEAC600B8430C /* Security.framework in Frameworks */,
+				EFA010A71D8DEABF00B8430C /* CFNetwork.framework in Frameworks */,
+				EFA010A51D8DEAB800B8430C /* libc++.tbd in Frameworks */,
+				EFA010A31D8DEAB200B8430C /* libicucore.tbd in Frameworks */,
+				EFA010A11D8DEA6D00B8430C /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +83,12 @@
 		EFA0106C1D8DE96700B8430C = {
 			isa = PBXGroup;
 			children = (
+				EFA010AA1D8DEACE00B8430C /* SystemConfiguration.framework */,
+				EFA010A81D8DEAC600B8430C /* Security.framework */,
+				EFA010A61D8DEABF00B8430C /* CFNetwork.framework */,
+				EFA010A41D8DEAB800B8430C /* libc++.tbd */,
+				EFA010A21D8DEAB200B8430C /* libicucore.tbd */,
+				EFA010A01D8DEA6D00B8430C /* Firebase.framework */,
 				EFA010771D8DE96700B8430C /* UkeMasterv2 */,
 				EFA0108C1D8DE96700B8430C /* UkeMasterv2Tests */,
 				EFA010761D8DE96700B8430C /* Products */,
@@ -79,7 +109,10 @@
 			children = (
 				EFA010781D8DE96700B8430C /* AppDelegate.swift */,
 				EFA0107A1D8DE96700B8430C /* ViewController.swift */,
-				EFA0107C1D8DE96700B8430C /* Main.storyboard */,
+				EFA010981D8DE97F00B8430C /* ChordsViewController.swift */,
+				EFA010991D8DE97F00B8430C /* LearnViewController.swift */,
+				EFA0109A1D8DE97F00B8430C /* SimonSaysViewController.swift */,
+				EFA0109E1D8DE9C100B8430C /* Main.storyboard */,
 				EFA0107F1D8DE96700B8430C /* Assets.xcassets */,
 				EFA010811D8DE96700B8430C /* LaunchScreen.storyboard */,
 				EFA010841D8DE96700B8430C /* Info.plist */,
@@ -177,9 +210,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA0109F1D8DE9C100B8430C /* Main.storyboard in Resources */,
 				EFA010831D8DE96700B8430C /* LaunchScreen.storyboard in Resources */,
 				EFA010801D8DE96700B8430C /* Assets.xcassets in Resources */,
-				EFA0107E1D8DE96700B8430C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA0107B1D8DE96700B8430C /* ViewController.swift in Sources */,
+				EFA0109D1D8DE97F00B8430C /* SimonSaysViewController.swift in Sources */,
+				EFA0109C1D8DE97F00B8430C /* LearnViewController.swift in Sources */,
+				EFA0109B1D8DE97F00B8430C /* ChordsViewController.swift in Sources */,
 				EFA010791D8DE96700B8430C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,14 +257,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EFA0107C1D8DE96700B8430C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFA0107D1D8DE96700B8430C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EFA010811D8DE96700B8430C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -329,6 +357,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = UkeMasterv2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HacktheNorth.UkeMasterv2;
@@ -340,6 +372,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = UkeMasterv2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HacktheNorth.UkeMasterv2;

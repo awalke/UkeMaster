@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UkeMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UkeMasterv2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -79,7 +79,7 @@
         <!--Chords View Controller-->
         <scene sceneID="1hJ-D2-VG3">
             <objects>
-                <viewController id="2jy-7f-tLI" customClass="ChordsViewController" customModule="UkeMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2jy-7f-tLI" customClass="ChordsViewController" customModule="UkeMasterv2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Z2F-Ib-YFl"/>
                         <viewControllerLayoutGuide type="bottom" id="r43-VA-fET"/>
@@ -205,7 +205,7 @@
         <!--Learn View Controller-->
         <scene sceneID="qww-MU-Mhn">
             <objects>
-                <viewController id="WMg-Pk-pXn" customClass="LearnViewController" customModule="UkeMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WMg-Pk-pXn" customClass="LearnViewController" customModule="UkeMasterv2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uhu-a7-sDg"/>
                         <viewControllerLayoutGuide type="bottom" id="5s6-zr-fDn"/>
@@ -295,7 +295,7 @@
         <!--Simon Says View Controller-->
         <scene sceneID="L3P-Bv-CY0">
             <objects>
-                <viewController id="b7o-kC-Iue" customClass="SimonSaysViewController" customModule="UkeMaster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="b7o-kC-Iue" customClass="SimonSaysViewController" customModule="UkeMasterv2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kDa-Ks-y8h"/>
                         <viewControllerLayoutGuide type="bottom" id="mr7-VG-5oy"/>
