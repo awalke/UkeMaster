@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFA010791D8DE96700B8430C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA010781D8DE96700B8430C /* AppDelegate.swift */; };
+		EFA0107B1D8DE96700B8430C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0107A1D8DE96700B8430C /* ViewController.swift */; };
+		EFA0107E1D8DE96700B8430C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA0107C1D8DE96700B8430C /* Main.storyboard */; };
+		EFA010801D8DE96700B8430C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA0107F1D8DE96700B8430C /* Assets.xcassets */; };
+		EFA010831D8DE96700B8430C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA010811D8DE96700B8430C /* LaunchScreen.storyboard */; };
+		EFA0108E1D8DE96700B8430C /* UkeMasterv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0108D1D8DE96700B8430C /* UkeMasterv2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFA0108A1D8DE96700B8430C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA0106D1D8DE96700B8430C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA010741D8DE96700B8430C;
+			remoteInfo = UkeMasterv2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFA010751D8DE96700B8430C /* UkeMasterv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UkeMasterv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA010781D8DE96700B8430C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFA0107A1D8DE96700B8430C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFA0107D1D8DE96700B8430C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFA0107F1D8DE96700B8430C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFA010821D8DE96700B8430C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFA010841D8DE96700B8430C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA010891D8DE96700B8430C /* UkeMasterv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkeMasterv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA0108D1D8DE96700B8430C /* UkeMasterv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkeMasterv2Tests.swift; sourceTree = "<group>"; };
+		EFA0108F1D8DE96700B8430C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA010721D8DE96700B8430C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA010861D8DE96700B8430C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFA0106C1D8DE96700B8430C = {
+			isa = PBXGroup;
+			children = (
+				EFA010771D8DE96700B8430C /* UkeMasterv2 */,
+				EFA0108C1D8DE96700B8430C /* UkeMasterv2Tests */,
+				EFA010761D8DE96700B8430C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA010761D8DE96700B8430C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA010751D8DE96700B8430C /* UkeMasterv2.app */,
+				EFA010891D8DE96700B8430C /* UkeMasterv2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA010771D8DE96700B8430C /* UkeMasterv2 */ = {
+			isa = PBXGroup;
+			children = (
+				EFA010781D8DE96700B8430C /* AppDelegate.swift */,
+				EFA0107A1D8DE96700B8430C /* ViewController.swift */,
+				EFA0107C1D8DE96700B8430C /* Main.storyboard */,
+				EFA0107F1D8DE96700B8430C /* Assets.xcassets */,
+				EFA010811D8DE96700B8430C /* LaunchScreen.storyboard */,
+				EFA010841D8DE96700B8430C /* Info.plist */,
+			);
+			path = UkeMasterv2;
+			sourceTree = "<group>";
+		};
+		EFA0108C1D8DE96700B8430C /* UkeMasterv2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA0108D1D8DE96700B8430C /* UkeMasterv2Tests.swift */,
+				EFA0108F1D8DE96700B8430C /* Info.plist */,
+			);
+			path = UkeMasterv2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA010741D8DE96700B8430C /* UkeMasterv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA010921D8DE96700B8430C /* Build configuration list for PBXNativeTarget "UkeMasterv2" */;
+			buildPhases = (
+				EFA010711D8DE96700B8430C /* Sources */,
+				EFA010721D8DE96700B8430C /* Frameworks */,
+				EFA010731D8DE96700B8430C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UkeMasterv2;
+			productName = UkeMasterv2;
+			productReference = EFA010751D8DE96700B8430C /* UkeMasterv2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFA010881D8DE96700B8430C /* UkeMasterv2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA010951D8DE96700B8430C /* Build configuration list for PBXNativeTarget "UkeMasterv2Tests" */;
+			buildPhases = (
+				EFA010851D8DE96700B8430C /* Sources */,
+				EFA010861D8DE96700B8430C /* Frameworks */,
+				EFA010871D8DE96700B8430C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA0108B1D8DE96700B8430C /* PBXTargetDependency */,
+			);
+			name = UkeMasterv2Tests;
+			productName = UkeMasterv2Tests;
+			productReference = EFA010891D8DE96700B8430C /* UkeMasterv2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA0106D1D8DE96700B8430C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = HacktheNorth;
+				TargetAttributes = {
+					EFA010741D8DE96700B8430C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EFA010881D8DE96700B8430C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFA010741D8DE96700B8430C;
+					};
+				};
+			};
+			buildConfigurationList = EFA010701D8DE96700B8430C /* Build configuration list for PBXProject "UkeMasterv2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA0106C1D8DE96700B8430C;
+			productRefGroup = EFA010761D8DE96700B8430C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA010741D8DE96700B8430C /* UkeMasterv2 */,
+				EFA010881D8DE96700B8430C /* UkeMasterv2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA010731D8DE96700B8430C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA010831D8DE96700B8430C /* LaunchScreen.storyboard in Resources */,
+				EFA010801D8DE96700B8430C /* Assets.xcassets in Resources */,
+				EFA0107E1D8DE96700B8430C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA010871D8DE96700B8430C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA010711D8DE96700B8430C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA0107B1D8DE96700B8430C /* ViewController.swift in Sources */,
+				EFA010791D8DE96700B8430C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA010851D8DE96700B8430C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA0108E1D8DE96700B8430C /* UkeMasterv2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFA0108B1D8DE96700B8430C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA010741D8DE96700B8430C /* UkeMasterv2 */;
+			targetProxy = EFA0108A1D8DE96700B8430C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFA0107C1D8DE96700B8430C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA0107D1D8DE96700B8430C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFA010811D8DE96700B8430C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA010821D8DE96700B8430C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFA010901D8DE96700B8430C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFA010911D8DE96700B8430C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFA010931D8DE96700B8430C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UkeMasterv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HacktheNorth.UkeMasterv2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFA010941D8DE96700B8430C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UkeMasterv2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HacktheNorth.UkeMasterv2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFA010961D8DE96700B8430C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UkeMasterv2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HacktheNorth.UkeMasterv2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UkeMasterv2.app/UkeMasterv2";
+			};
+			name = Debug;
+		};
+		EFA010971D8DE96700B8430C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UkeMasterv2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HacktheNorth.UkeMasterv2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UkeMasterv2.app/UkeMasterv2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA010701D8DE96700B8430C /* Build configuration list for PBXProject "UkeMasterv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA010901D8DE96700B8430C /* Debug */,
+				EFA010911D8DE96700B8430C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA010921D8DE96700B8430C /* Build configuration list for PBXNativeTarget "UkeMasterv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA010931D8DE96700B8430C /* Debug */,
+				EFA010941D8DE96700B8430C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFA010951D8DE96700B8430C /* Build configuration list for PBXNativeTarget "UkeMasterv2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA010961D8DE96700B8430C /* Debug */,
+				EFA010971D8DE96700B8430C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA0106D1D8DE96700B8430C /* Project object */;
+}
