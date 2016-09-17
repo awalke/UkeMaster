@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2D620CA7A041383D63F7288168530E1034460A1E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2D620CA7A041383D63F7288168530E1034460A1E" : 0,
+    "CE97FFAD0E7F8A0AEACE00DC800B4B68EA9EC2CA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FE8906FF-8D37-449B-95A6-3C472B000D90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2D620CA7A041383D63F7288168530E1034460A1E" : "UkeMasterv2\/",
+    "CE97FFAD0E7F8A0AEACE00DC800B4B68EA9EC2CA" : "UkeMaster\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UkeMasterv2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UkeMasterv2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/awalke\/UkeMasterv2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D620CA7A041383D63F7288168530E1034460A1E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/awalke\/UkeMaster.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE97FFAD0E7F8A0AEACE00DC800B4B68EA9EC2CA"
+    }
+  ]
+}
