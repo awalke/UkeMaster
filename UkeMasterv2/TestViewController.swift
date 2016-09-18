@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class TestViewController: UIViewController {
 
@@ -32,4 +33,103 @@ class TestViewController: UIViewController {
     }
     */
 
+    @IBAction func CChordButton(_ sender: AnyObject) {
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+        
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": "C"]
+        chordRef?.setValue(chords)
+    }
+    
+    @IBAction func EmChordButton(_ sender: AnyObject) {
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+        
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": "Em"]
+        chordRef?.setValue(chords)
+    }
+    
+    @IBAction func AmChordButton(_ sender: AnyObject) {
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+        
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": "Am"]
+        chordRef?.setValue(chords)
+    }
+    
+    @IBAction func DmChordButton(_ sender: AnyObject) {
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+        
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": "Dm"]
+        chordRef?.setValue(chords)
+    }
+    
+    @IBAction func FChordButton(_ sender: AnyObject) {
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+        
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": "F"]
+        chordRef?.setValue(chords)
+    }
+    
+    @IBAction func BmChordButton(_ sender: AnyObject) {
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+        
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": "Bm"]
+        chordRef?.setValue(chords)
+    }
+    
+    @IBAction func GChordButton(_ sender: AnyObject) {
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+        
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": "G"]
+        chordRef?.setValue(chords)
+    }
+    
+    @IBAction func DChordButton(_ sender: AnyObject) {
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+        
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": "D"]
+        chordRef?.setValue(chords)
+    }
+    
+    @IBAction func AChordButton(_ sender: AnyObject) {
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+        
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": "A"]
+        chordRef?.setValue(chords)
+    }
+    
+    @IBAction func EChordButton(_ sender: AnyObject) {
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+        
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": "E"]
+        chordRef?.setValue(chords)
+    }
 }

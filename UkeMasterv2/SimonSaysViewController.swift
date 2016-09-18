@@ -11,12 +11,15 @@ import Firebase
 
 class SimonSaysViewController: UIViewController {
 
+    var count = 0;
+    var array = Array<String>()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        sendRequest()
+        sendRequest(id: count)
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,20 +38,85 @@ class SimonSaysViewController: UIViewController {
     }
     */
     
-    func sendRequest() {
-        if let url = NSURL(string: "http://httpbin.org/post"){
-            let request = NSMutableURLRequest(URL: url)
-            request.HTTPMethod = "GET" //Or GET if that's what you need
-            request.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")  //This is where you add your HTTP headers like Content-Type, Accept and so on
-            let params = ["OID1.2" : "SW+Dev+114", "OID1.4" : "192.168.111.114"] as Dictionary<String, String> //this is where you add your parameters
+    func sendRequest(id: Int) {
+        let ref = Firebase(url:"http://ukemaster-fe566.firebaseio.com/CantHelpFalling/" + String(id))
+        
+        // Attach a closure to read the data at our posts reference
+        ref?.observe(.value, with: { snapshot in
+            let keyValue = snapshot!.value
+            var content = keyValue.debugDescription
             
-            let httpData = NSKeyedArchiver.archivedDataWithRootObject(params) //you need to convert you parameters to NSData or to JSON data if the service accepts this, you might want to search for a solution on how to do this...hopefully this will get you in the right direction :-)
-            request.HTTPBody = httpData
-            let session = NSURLSession.sharedSession()
-            session.dataTaskWithRequest(request, completionHandler: { (returnData, response, error) -> Void in
-                let strData = NSString(data: returnData!, encoding: NSUTF8StringEncoding)
-                print("\(strData)")
-            }).resume() //Remember this one or nothing will happen :-)
+            //print(content.characters.count)
+            if (content.characters.count == 44) {
+                var range = content.index(content.endIndex, offsetBy: -20)..<content.endIndex
+                content.removeSubrange(range)
+                
+                range = content.index(content.endIndex, offsetBy: -24)..<content.index(content.endIndex, offsetBy: -1)
+                content.removeSubrange(range)
+                self.sendChords(chord: content)
+            }
+            else {
+                var range = content.index(content.endIndex, offsetBy: -20)..<content.endIndex
+                content.removeSubrange(range)
+                
+                range = content.index(content.endIndex, offsetBy: -25)..<content.index(content.endIndex, offsetBy: -2)
+                content.removeSubrange(range)
+                self.sendChords(chord: content)
+            }
+            
+            
+            
+            //print(content)
+        })
+    }
+    
+    func sendChords(chord: String){
+        
+        let ref = Firebase(url: "http://ukemaster-fe566.firebaseio.com/")
+
+        
+        let chordRef = ref?.child(byAppendingPath: "Chords")
+        
+        let chords = ["Notes": chord]
+        chordRef?.setValue(chords)
+        
+        changeLabel(chord: chord)
+        
+    }
+    @IBOutlet weak var LabelOutlet: UILabel!
+    
+    func changeLabel(chord: String) {
+        array.append(chord)
+        /*UIView.animate(withDuration: 1) {
+         self.LabelOutlet.alpha = 0
+         }*/
+        
+        LabelOutlet.text = LabelOutlet.text! + " " + chord
+        UIView.animate(withDuration: 1) {
+            self.LabelOutlet.alpha = 1
+        }
+        
+        /*sleep(1)
+        
+        for i in 0 ..< array.count  {
+            LabelOutlet.text = array[i]
+            sleep(1)
+        }*/
+    }
+    
+    
+    @IBAction func NextButton(_ sender: AnyObject ){
+        
+        count += 1;
+        
+        if(count < 24) {
+            UIView.animate(withDuration: 1) {
+                self.LabelOutlet.alpha = 0
+            }
+            sendRequest(id: count)
+        }
+        else {
+            LabelOutlet.text = "Good Job!"
         }
     }
 }

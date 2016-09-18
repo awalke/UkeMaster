@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="T3c-tT-z7t">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="T3c-tT-z7t">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,69 +16,61 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HmW-9c-ait">
-                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HmW-9c-ait">
+                                <frame key="frameInset" minX="20" minY="64" width="343" height="603"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9KA-nU-Ba5">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="179"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="g91-fE-hfx">
-                                                <rect key="frame" x="0.0" y="51" width="151" height="77"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="77" id="Rk8-d9-Jdk"/>
                                                     <constraint firstAttribute="width" constant="151" id="ntb-jI-XKE"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Title" translatesAutoresizingMaskIntoConstraints="NO" id="ae6-pS-yjS">
-                                                <rect key="frame" x="151" y="3" width="409" height="174"/>
-                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Title" translatesAutoresizingMaskIntoConstraints="NO" id="ae6-pS-yjS"/>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="n7k-fD-gnv">
-                                        <rect key="frame" x="0.0" y="179" width="560" height="179"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNi-Pc-84N">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="78"/>
-                                                <color key="backgroundColor" red="0.1985991379" green="0.59808728450000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.1985991379" green="0.59808728450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="469" id="e17-Tj-PVE"/>
                                                     <constraint firstAttribute="height" constant="78" id="esD-Lo-ChX"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="60"/>
                                                 <state key="normal" title="Chords">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="2jy-7f-tLI" kind="show" id="xzv-t6-9Ky"/>
+                                                    <segue destination="2jy-7f-tLI" kind="show" id="qII-3d-TNn"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bsA-rX-TA7">
-                                                <rect key="frame" x="0.0" y="78" width="560" height="101"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="469" id="222-eO-tO2"/>
                                                     <constraint firstAttribute="height" constant="78" id="Ytj-Jr-KBm"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="60"/>
                                                 <state key="normal" title="Learn">
-                                                    <color key="titleColor" red="0.1985991379" green="0.59808728450000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" red="0.1985991379" green="0.59808728450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="WMg-Pk-pXn" kind="show" id="PC9-Xc-1NT"/>
+                                                    <segue destination="WMg-Pk-pXn" kind="show" id="ul5-fs-Zap"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kWa-2b-2uq">
-                                        <rect key="frame" x="0.0" y="358" width="560" height="179"/>
-                                        <color key="backgroundColor" red="0.1985991379" green="0.59808728450000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.1985991379" green="0.59808728450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="HmW-9c-ait" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="CJO-WM-J4I"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HmW-9c-ait" secondAttribute="bottom" id="J5M-ER-CKh"/>
@@ -91,114 +84,99 @@
             </objects>
             <point key="canvasLocation" x="1107" y="364"/>
         </scene>
-        <!--Chords View Controller-->
+        <!--Test View Controller-->
         <scene sceneID="1hJ-D2-VG3">
             <objects>
-                <viewController id="2jy-7f-tLI" customClass="ChordsViewController" customModule="UkeMasterv2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2jy-7f-tLI" customClass="TestViewController" customModule="UkeMasterv2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Z2F-Ib-YFl"/>
                         <viewControllerLayoutGuide type="bottom" id="r43-VA-fET"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="0If-eq-gel">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="t2e-S6-zjF">
-                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="t2e-S6-zjF">
+                                <frame key="frameInset" minX="20" minY="64" width="343" height="603"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aCq-RM-5XV">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="107"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="al4-49-eVC" userLabel="C">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="107"/>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" image="C Note"/>
                                                 <connections>
-                                                    <action selector="CChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="Gai-2w-gjU"/>
+                                                    <action selector="CChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="oHn-ND-u0a"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvY-Gx-AbF" userLabel="Em">
-                                                <rect key="frame" x="280" y="0.0" width="280" height="107"/>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" image="Em Note"/>
                                                 <connections>
-                                                    <action selector="EmChord:" destination="2jy-7f-tLI" eventType="touchUpInside" id="Msv-BQ-mwd"/>
+                                                    <action selector="EmChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="sNd-ag-WBe"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lv5-1b-lQV">
-                                        <rect key="frame" x="0.0" y="107" width="560" height="108"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oi3-Km-XAL" userLabel="Am">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="108"/>
                                                 <state key="normal" image="Am Note"/>
                                                 <connections>
-                                                    <action selector="AmChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="wfG-x5-42m"/>
+                                                    <action selector="AmChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="oHZ-sh-yfX"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4N4-mg-uNj" userLabel="Dm">
-                                                <rect key="frame" x="280" y="0.0" width="280" height="108"/>
                                                 <state key="normal" image="Dm Note"/>
                                                 <connections>
-                                                    <action selector="DmChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="Yfd-Fb-ZsI"/>
+                                                    <action selector="DmChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="BkI-My-BRa"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8Jy-Fd-N2x">
-                                        <rect key="frame" x="0.0" y="215" width="560" height="107"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WDL-bi-2Wk" userLabel="F">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="107"/>
                                                 <state key="normal" image="F Note"/>
                                                 <connections>
-                                                    <action selector="FChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="4U2-EO-CLO"/>
+                                                    <action selector="FChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="Vub-VH-VJB"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bue-7B-MRW" userLabel="Bm">
-                                                <rect key="frame" x="280" y="0.0" width="280" height="107"/>
                                                 <state key="normal" image="Bm Note"/>
                                                 <connections>
-                                                    <action selector="FGbChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="fe6-Mk-WpW"/>
+                                                    <action selector="BmChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="RPT-r5-G3R"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UtL-1y-x7Z">
-                                        <rect key="frame" x="0.0" y="322" width="560" height="108"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZY-Ln-Bvr" userLabel="G">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="108"/>
                                                 <state key="normal" image="G Note"/>
                                                 <connections>
-                                                    <action selector="GChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="MbI-h6-gR4"/>
+                                                    <action selector="GChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="YGX-aT-Xg6"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1r-3U-bNh" userLabel="D">
-                                                <rect key="frame" x="280" y="0.0" width="280" height="108"/>
                                                 <state key="normal" image="D Note"/>
                                                 <connections>
-                                                    <action selector="DChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="Ofb-Xd-xcM"/>
+                                                    <action selector="DChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="EEp-LY-dap"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="di4-6I-N4U">
-                                        <rect key="frame" x="0.0" y="429" width="560" height="107"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhD-1O-E0m" userLabel="A">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="107"/>
                                                 <state key="normal" image="A Note"/>
                                                 <connections>
-                                                    <action selector="AChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="6S5-QK-3g4"/>
+                                                    <action selector="AChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="COi-I7-u5e"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BSI-Xk-kTa" userLabel="E">
-                                                <rect key="frame" x="280" y="0.0" width="280" height="107"/>
                                                 <state key="normal" image="E Note"/>
                                                 <connections>
-                                                    <action selector="EChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="W6W-aA-Xtj"/>
+                                                    <action selector="EChordButton:" destination="2jy-7f-tLI" eventType="touchUpInside" id="gbQ-ez-8hi"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -206,7 +184,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="t2e-S6-zjF" firstAttribute="leading" secondItem="0If-eq-gel" secondAttribute="leadingMargin" id="2nB-ja-bXT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="t2e-S6-zjF" secondAttribute="trailing" id="9xG-tl-dF5"/>
@@ -228,28 +206,27 @@
                         <viewControllerLayoutGuide type="bottom" id="5s6-zr-fDn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="NwO-iO-B6e">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yzX-Me-oGK">
-                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yzX-Me-oGK">
+                                <frame key="frameInset" minX="20" minY="64" width="343" height="603"/>
                                 <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vlz-f0-dZ5"/>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="f60-7v-OkS">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="107"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn a Song" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUt-um-foZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="107"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.1985991379" green="0.59808728450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
+                                                <size key="shadowOffset" width="16" height="-1"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="-57" translatesAutoresizingMaskIntoConstraints="NO" id="x0V-6Z-451">
-                                        <rect key="frame" x="0.0" y="107" width="560" height="108"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ztm-uf-Fqv">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="108"/>
                                                 <state key="normal" title="I Can't Help Falling In Love With You"/>
                                                 <connections>
                                                     <segue destination="b7o-kC-Iue" kind="show" id="kKs-Jb-Fma"/>
@@ -258,45 +235,30 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ltH-uS-icM">
-                                        <rect key="frame" x="0.0" y="215" width="560" height="107"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lt-8R-g1q">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="107"/>
                                                 <state key="normal" title="Somewhere Over the Rainbow"/>
                                                 <connections>
-                                                    <segue destination="b7o-kC-Iue" kind="show" id="9VJ-KR-tCI"/>
+                                                    <segue destination="Oxh-Qi-UBL" kind="show" id="CVt-z9-btK"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hBd-Lh-wyn">
-                                        <rect key="frame" x="0.0" y="322" width="560" height="108"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNq-Zz-ks1">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="108"/>
                                                 <state key="normal" title="I See the Light"/>
                                                 <connections>
-                                                    <segue destination="b7o-kC-Iue" kind="show" id="HoS-d6-gO7"/>
+                                                    <segue destination="6lf-r1-w8r" kind="show" id="UMs-jW-MGc"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gG7-fY-F7z">
-                                        <rect key="frame" x="0.0" y="429" width="560" height="107"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mk-Mo-sJP">
-                                                <rect key="frame" x="0.0" y="0.0" width="560" height="107"/>
-                                                <state key="normal" title="Button"/>
-                                                <connections>
-                                                    <segue destination="b7o-kC-Iue" kind="show" id="34u-sV-4ty"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="gG7-fY-F7z"/>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5s6-zr-fDn" firstAttribute="top" secondItem="yzX-Me-oGK" secondAttribute="bottom" id="KQo-uS-DSz"/>
                             <constraint firstItem="yzX-Me-oGK" firstAttribute="leading" secondItem="NwO-iO-B6e" secondAttribute="leadingMargin" id="Q7w-rk-l6u"/>
@@ -307,7 +269,52 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Brh-ic-Ztl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1118" y="1155"/>
+            <point key="canvasLocation" x="1117.5999999999999" y="1154.5727136431785"/>
+        </scene>
+        <!--Over The Rainbow View Controller-->
+        <scene sceneID="KMv-H5-ja2">
+            <objects>
+                <viewController id="Oxh-Qi-UBL" customClass="OverTheRainbowViewController" customModule="UkeMasterv2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ccf-9z-hSO"/>
+                        <viewControllerLayoutGuide type="bottom" id="G9B-ZJ-SEP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MVO-Dl-jww">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0wh-ql-boC">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiJ-k2-Shx">
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DX2-rR-wCg">
+                                        <state key="normal" title="Next"/>
+                                        <connections>
+                                            <action selector="NextButton:" destination="Oxh-Qi-UBL" eventType="touchUpInside" id="ead-Id-guL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0wh-ql-boC" firstAttribute="leading" secondItem="MVO-Dl-jww" secondAttribute="leadingMargin" id="7GM-cp-ogy"/>
+                            <constraint firstItem="G9B-ZJ-SEP" firstAttribute="top" secondItem="0wh-ql-boC" secondAttribute="bottom" id="RI9-Z1-7TG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0wh-ql-boC" secondAttribute="trailing" id="j2l-05-7oF"/>
+                            <constraint firstItem="0wh-ql-boC" firstAttribute="top" secondItem="Ccf-9z-hSO" secondAttribute="bottom" constant="75" id="jjv-Ki-nd7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LabelOutlet" destination="wiJ-k2-Shx" id="SYH-ym-nz7"/>
+                        <outlet property="NextButtonOutlet" destination="wiJ-k2-Shx" id="ZP1-vs-l2b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgi-eA-Bv0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1999" y="1169"/>
         </scene>
         <!--Simon Says View Controller-->
         <scene sceneID="L3P-Bv-CY0">
@@ -318,14 +325,85 @@
                         <viewControllerLayoutGuide type="bottom" id="mr7-VG-5oy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="T3P-kQ-o6V">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rXf-ih-oAo">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coE-DU-tBn">
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Seu-ap-rvn">
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <state key="normal" title="Next"/>
+                                        <connections>
+                                            <action selector="NextButton:" destination="b7o-kC-Iue" eventType="touchUpInside" id="tve-ZF-hVU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rXf-ih-oAo" firstAttribute="leading" secondItem="T3P-kQ-o6V" secondAttribute="leadingMargin" id="0sx-tx-tBm"/>
+                            <constraint firstItem="rXf-ih-oAo" firstAttribute="top" secondItem="kDa-Ks-y8h" secondAttribute="bottom" constant="80" id="0vP-T6-6cm"/>
+                            <constraint firstItem="mr7-VG-5oy" firstAttribute="top" secondItem="rXf-ih-oAo" secondAttribute="bottom" constant="50" id="Kut-w2-fDZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rXf-ih-oAo" secondAttribute="trailing" id="wgw-Z1-7ce"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="LabelOutlet" destination="coE-DU-tBn" id="RTM-fN-bnJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sN2-ft-MF9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1130" y="1891"/>
+        </scene>
+        <!--See The Light View Controller-->
+        <scene sceneID="8b2-zM-394">
+            <objects>
+                <viewController id="6lf-r1-w8r" customClass="SeeTheLightViewController" customModule="UkeMasterv2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C44-X9-M1f"/>
+                        <viewControllerLayoutGuide type="bottom" id="oCa-ag-QVy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6x5-Ub-ygB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FeR-XZ-FK7">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gn7-dp-PG9">
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcU-Oy-99n">
+                                        <state key="normal" title="Next"/>
+                                        <connections>
+                                            <action selector="NextButton:" destination="6lf-r1-w8r" eventType="touchUpInside" id="u8N-xK-ybS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oCa-ag-QVy" firstAttribute="top" secondItem="FeR-XZ-FK7" secondAttribute="bottom" id="5Av-NB-t86"/>
+                            <constraint firstItem="FeR-XZ-FK7" firstAttribute="leading" secondItem="6x5-Ub-ygB" secondAttribute="leadingMargin" id="dfc-gl-1zp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FeR-XZ-FK7" secondAttribute="trailing" id="ekN-DE-tf1"/>
+                            <constraint firstItem="FeR-XZ-FK7" firstAttribute="top" secondItem="C44-X9-M1f" secondAttribute="bottom" constant="75" id="p3i-Jx-pM2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LabelOutlet" destination="Gn7-dp-PG9" id="lHG-Xs-93X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1xA-nK-1QW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2019" y="1895"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="woa-Ub-CfH">
@@ -357,10 +435,7 @@
         <image name="Em Note" width="100" height="100"/>
         <image name="F Note" width="100" height="100"/>
         <image name="G Note" width="100" height="100"/>
-        <image name="Logo" width="58" height="58"/>
-        <image name="Title" width="527" height="174"/>
+        <image name="Logo" width="60" height="60"/>
+        <image name="Title" width="175" height="58"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="kKs-Jb-Fma"/>
-    </inferredMetricsTieBreakers>
 </document>

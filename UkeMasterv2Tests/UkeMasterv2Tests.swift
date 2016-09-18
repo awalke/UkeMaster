@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import UkeMasterv2
 
 class UkeMasterv2Tests: XCTestCase {
     
