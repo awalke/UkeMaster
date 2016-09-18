@@ -44,9 +44,9 @@
 		EFA010891D8DE96700B8430C /* UkeMasterv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UkeMasterv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA0108D1D8DE96700B8430C /* UkeMasterv2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UkeMasterv2Tests.swift; sourceTree = "<group>"; };
 		EFA0108F1D8DE96700B8430C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFA010981D8DE97F00B8430C /* ChordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChordsViewController.swift; path = ../../UkeMaster/UkeMaster/ChordsViewController.swift; sourceTree = "<group>"; };
-		EFA010991D8DE97F00B8430C /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LearnViewController.swift; path = ../../UkeMaster/UkeMaster/LearnViewController.swift; sourceTree = "<group>"; };
-		EFA0109A1D8DE97F00B8430C /* SimonSaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimonSaysViewController.swift; path = ../../UkeMaster/UkeMaster/SimonSaysViewController.swift; sourceTree = "<group>"; };
+		EFA010981D8DE97F00B8430C /* ChordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordsViewController.swift; sourceTree = "<group>"; };
+		EFA010991D8DE97F00B8430C /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		EFA0109A1D8DE97F00B8430C /* SimonSaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimonSaysViewController.swift; sourceTree = "<group>"; };
 		EFA0109E1D8DE9C100B8430C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EFA010A01D8DEA6D00B8430C /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		EFA010A21D8DEAB200B8430C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -426,6 +426,7 @@
 				EFA010941D8DE96700B8430C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFA010951D8DE96700B8430C /* Build configuration list for PBXNativeTarget "UkeMasterv2Tests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +435,7 @@
 				EFA010971D8DE96700B8430C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
